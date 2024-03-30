@@ -1,0 +1,172 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    height: 100px; 
+    background-color: black;
+    color: white;
+    
+}
+#navbar2 {
+    display: flex; 
+    width: 100%; 
+    height: 97px; 
+    border-radius: 10px; 
+    justify-content: space-around; 
+    align-items: center; 
+    color: white;
+}
+#navbar2 a{
+    color: white;
+}
+/* Styling for the home page content */
+.home-content {
+    padding: 20px; 
+    text-align: center;
+}
+
+/* Styling for the images and videos */
+.home-content img,
+.home-content video {
+    width: 100%; 
+    height: 600px; 
+    margin-bottom: 20px; 
+}
+/* Styling for the contact page content */
+.contact-content {
+    padding: 20px; 
+    text-align: center;
+}
+.contact-details {
+    margin-top: 20px;
+}
+.contact-details p {
+    margin: 5px 0; 
+}
+.about-content {
+    padding: 20px;
+}
+.about-text {
+    margin-bottom: 20px; 
+}
+
+/* Styling for the about page content */
+.about-content {
+    padding: 20px; 
+}
+
+.about-text {
+    margin-bottom: 20px; 
+}
+/* Styling for the menu page*/
+.menu-content {
+    padding: 20px; 
+}
+.menu-item {
+    margin-bottom: 20px; 
+}
+
+.menu-item img {
+    max-width: 100%; 
+    height: auto; 
+}
+/* Styling for the footer */
+footer {
+    background-color: #333;
+    color: #fff; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.recipe-card {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* for card */ 
+  .recipe-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .recipe-title {
+    color: #333;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+  
+  .recipe-description {
+    color: #666;
+    font-size:22px;
+  }
+  .containerm{
+    display: flex;
+    height: 750px;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.container p {
+    color: #666;
+    margin-bottom: 10px;
+}
+.containera{
+    height: 600px;
+    width:60%;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid black;
+}
+.containera .containerc h2,p{
+    text-align: center;
+}
+.containerc{
+    height: 400px;
+    width:32%;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 2px solid black;
+}
+.con{
+    display: flex;
+}
+.map{
+    height: 400px;
+    width: 500px;
+    margin-left: 5%;
+    margin-top: 4%;
+    
+}
+.containerh h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.left-card,
+.right-card {
+    float: left;
+    width: 45%;
+    padding: 10px;
+}
+
+.left-card input[type="text"],
+.left-card input[type="email"],
+.left-card input[type="password"],
+.left-card input[type="number"],
+.left-card input[type="tel"],
+.right-card input[type="file"],
+.right-card input[type="color"],
+.right-card input[type="range"],
+.right-card input[type="time"],
+.right-card input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.btn {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bttn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.bttn:hover {
+    background-color: #0056b3;
+}
+
+#reset_input {
+    margin-top: 10px;
+    background-color: #dc3545;
+}

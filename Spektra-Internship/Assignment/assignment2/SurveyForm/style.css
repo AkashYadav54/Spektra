@@ -1,0 +1,23 @@
+
+.container {
+    margin: 40px 550px;
+    width: 450px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 8px;
+    
+}
+h1{
+    margin-left: 120px;
+}
+form{
+    margin-left: 15px;
+}
+
+#sub{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(23, 168, 71);
+    color: white;
+    border-radius: 6px;
+}

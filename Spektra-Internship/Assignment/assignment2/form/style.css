@@ -1,0 +1,16 @@
+
+.container {
+    margin-top: 150px;
+    margin-left: 550px;
+    background-color: white;
+    width: 400px ;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;   
+}
+body{
+    background-color: aliceblue;
+}
+input{
+    margin: 8px;
+}
