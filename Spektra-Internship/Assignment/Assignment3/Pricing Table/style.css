@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(to right, #606169,#d2d3d6);
+    color: rgb(141, 99, 238);
+}
+.rounded-lg{
+    border-radius: 1rem !important;
+}
+.text-small{
+font-size: 0.9rem;
+}
+.btn-primary{
+   background-color: #ffffff !important;
+   color:rgb(141, 99, 238);
+}
+.btn-primary:hover{
+    background-color:rgb(141, 99, 238)!important;
+    color: white;
+    font-weight: bold;
+}
+.shadow{
+    transform: scale(1.0);
+    transition: transform 0.3s ease;
+    border:1px solid rgb(141, 99, 238)!important ;
+}
+.shadow:hover{
+    transform: scale(1.1);
+    /* Transition for smooth animation */
+    transition: transform 0.3s ease;
+}
+.text-left{
+    text-align: left;
+}
